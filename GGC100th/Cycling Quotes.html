@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Cycling Quotes</title>
+</head>
+
+<script>
+var myVar=setInterval(function(){myTimer()},1000);
+  
+  function myTimer()
+{
+  
+   document.getElementById("demo").innerHTML= outputTimer();
+   myVar++;
+}
+  
+  function outputTimer(){
+    if(myVar < 5){
+       return  "Great teams are not made up of many well-rounded players. Great teams are made up of a variety of players, each having their own strengths.";
+    }
+    
+    else if(myVar < 10){
+      return "Sports do not build character. They reveal it.";  
+    }
+    
+    else if(myVar < 15){
+       return "You miss 100% of the shots you never take."; 
+    }
+    
+    else if(myVar < 20){
+      return "You can't win unless you learn how to lose.";
+    }
+    
+    else if(myVar < 25){
+      return "It took me seventeen years to get three thousand hits in baseball. I did it in one afternoon on the golf course.";
+    }
+     
+    else if(myVar < 30){
+      return "It's like wrestling a gorilla- you don't quit when you're tired, you quit when the gorilla is tired";
+    }
+    
+    else if(myVar < 35){
+      return "I can accept failure, but I can't accept not trying.";
+    }
+    
+    else if(myVar < 40){
+      return "A lifetime of training for just ten seconds.";
+    }
+    
+    else if(myVar < 45){
+      return "Luck? Sure. But only after long practice and only with the ability to think under pressure.";
+    }
+    
+    else if(myVar < 50){
+      return "There are not traffic jams along the extra mile.";
+    }
+     
+    else{
+      myVar = 0;
+      return "Champions keep playing until they get it right.";
+    }
+  }
+    </script>
+  <body>
+    <h2>Great Athletic Quotes:</h2>
+<p id="demo"></p>
+  
+</body>
+</html>

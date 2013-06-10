@@ -1,0 +1,80 @@
+.themebackcolor{
+	background-color:#F0F0F0;
+	/*background-color:#336699;*/
+}
+
+.sitecontainer{
+	/*background-color:#336699;*/
+	background-color:#F0F0F0;
+}
+.themecolor{
+	/*color:#F0F0F0;*/
+	background-color:#336699;
+}
+
+.image{
+	background-image: url("dove.jpg.");
+}
+
+.GGC100years{
+	background-color:#D4A017;
+}
+
+.scheduleofevents{
+	border-style:2px solid;
+	border-color:gray;
+}
+
+.eventsdetails{
+	color:#606060;	
+	font-style: italic;
+}
+
+.daysofevents{
+	color:#006699;
+	text-decoration:underline;
+	font-style: italic;
+	font-style: bold;
+}
+
+.center{
+	text-align:center;
+}
+
+.timedate{
+	color:#330066;
+}
+
+.themephrase{
+	color:#330066;
+}
+
+#churchnametitle1{
+	color:#330066;
+	text-align:center;
+	font-family: After Shok;
+	/*font-family: "Precious";*/
+	/*font-family: Alex Brush;*/
+	/*font-family: CAC Champagne;*/
+}
+
+.para{
+	color:color:#606060;
+}
+
+#churchnametitle2{
+	color:#FFFF00;
+	text-align:center;
+}
+
+#mottocolor{
+	color:#FF0000;
+}
+
+#versecolor{
+	color:#AB1313;
+}
+
+#usingsite{
+	color:#000099;
+}
