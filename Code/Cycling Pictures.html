@@ -4,6 +4,7 @@
 		<title>Cycling Pictures</title>
 	</head>
 
+	<script></script>
 	<script>
 		var myVar=setInterval(function(){myTimer()},1000);
 	  
@@ -14,12 +15,11 @@
 		  
 		function outputTimer(){
 			if(myVar < 7){
-			   //return  '<a href="//www.nba.com">Hello!</a>';
-			   return  '<img src="dove.jpg" alt="A dove"/>';
+			   return  '<img src=../Pictures/dove.jpg alt="A dove"/>';
 			}
 			
 			else if(myVar < 10){
-			  return "Sports do not build character. They reveal it.";  
+				return '<img src=../Pictures/GGCsinging.png alt="A Bible" />'
 			}
 			
 			else if(myVar < 15){
@@ -60,8 +60,14 @@
 			}
 		}
     </script>
+	<script>
+		function myHome(){
+			document.getElementById("myHome").innerHTML = 'Hola';
+		}
+	</script>
   <body>
     <h2>Great Athletic Quotes:</h2>
+<h4 id="myHome"></h4>	
 <p id="demo"></p>
 	</body>
 
