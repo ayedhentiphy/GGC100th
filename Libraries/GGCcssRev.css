@@ -79,6 +79,9 @@
 #motto{
 	/*color:#FF0000;*/
 	font-family: sans-serif;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
 }
 
 #verse{
@@ -87,4 +90,7 @@
 
 #usingsite{
 	color:#000099;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
 }
