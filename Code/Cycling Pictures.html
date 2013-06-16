@@ -60,11 +60,9 @@
 		}
  
 		function myHome(){
-			document.getElementById("myHome").innerHTML = temp();
-		}
-		
-		function temp(){
-			document.write("Hello");
+			var $image =  #('#hello');
+			$image.attr('src', '../Pictures/dove.jpg');
+			$image.fadeOut('slow');
 		}
 		
 	</script>
@@ -72,7 +70,9 @@
 	<script type="text/javascript"></script>
 	<body>
 		<h2>Great Athletic Quotes:</h2>
-		<p id="demo"></p>
+		<!--<p id="demo"></p>-->
+		<img id='hello' src="" />
+		<script>myHome();</script>
 	</script>
 	</body>
 
