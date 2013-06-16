@@ -4,11 +4,12 @@
 		<title>Cycling Pictures</title>
 	</head>
 
+	<script></script>
 	<script>
 		var myVar=setInterval(function(){myTimer()},1000);
 	  
 		function myTimer(){
-			document.getElementById("demo").innerHTML = outputTimer();
+			document.getElementById("demo").innerHTML= outputTimer();
 			myVar++;
 		}
 		  
@@ -52,28 +53,22 @@
 			else if(myVar < 50){
 			  return "There are not traffic jams along the extra mile.";
 			}
-			
+			 
 			else{
 			  myVar = 0;
 			  return "Champions keep playing until they get it right.";
 			}
 		}
- 
+    </script>
+	<script>
 		function myHome(){
-			document.getElementById("myHome").innerHTML = temp();
+			document.getElementById("myHome").innerHTML = 'Hola';
 		}
-		
-		function temp(){
-			document.write("Hello");
-		}
-		
 	</script>
-	
-	<script type="text/javascript"></script>
-	<body>
-		<h2>Great Athletic Quotes:</h2>
-		<p id="demo"></p>
-	</script>
+  <body>
+    <h2>Great Athletic Quotes:</h2>
+<h4 id="myHome"></h4>	
+<p id="demo"></p>
 	</body>
 
 </html>
