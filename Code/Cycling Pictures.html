@@ -2,9 +2,6 @@
 	<head>
 		<meta charset=utf-8 />
 		<title>Cycling Pictures</title>
-	</head>
-
-	<script></script>
 	<script>
 		var myVar=setInterval(function(){myTimer()},1000);
 	  
@@ -59,16 +56,22 @@
 			  return "Champions keep playing until they get it right.";
 			}
 		}
-    </script>
-	<script>
+  
 		function myHome(){
-			document.getElementById("myHome").innerHTML = 'Hola';
+			var $image = $('#hello');
+			//$image.attr('src', '../Pictures/Church1.jpg');
+			$image.fadeOut('slow');
+			return $image;
 		}
 	</script>
+	</head>
+
   <body>
     <h2>Great Athletic Quotes:</h2>
-<h4 id="myHome"></h4>	
-<p id="demo"></p>
+		<h4 id="myHome"></h4>	
+		<p id="demo"></p>
+		<img id="hello" src="../Pictures/dove.jpg" />
+		<script>myHome();</script>
 	</body>
 
 </html>
