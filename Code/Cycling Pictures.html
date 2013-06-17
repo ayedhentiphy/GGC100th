@@ -2,11 +2,17 @@
 	<head>
 		<meta charset=utf-8 />
 		<title>Cycling Pictures</title>
-	</head>
 
+		<script src="http://code.jquery.com/jquery.js"> </script>
+		<link rel="stylesheet" href="../Libraries/GGCcssRev.css" />
+		
 	<script>
-		var myVar=setInterval(function(){myTimer()},1000);
+		var myVar=setInterval(function(){
+			//myTimer()
+		},1000);
 	  
+		var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg'];
+		
 		function myTimer(){
 			document.getElementById("demo").innerHTML = outputTimer();
 			myVar++;
@@ -58,22 +64,37 @@
 			  return "Champions keep playing until they get it right.";
 			}
 		}
- 
+
 		function myHome(){
-			document.getElementById("myHome").innerHTML = temp();
+			var $image = $('#hello');
+			console.log($image);
+			$image.attr('src', '../Pictures/dove.jpg');
+			$image.animate({right: 150, width: '500', height: '600'}, 3000, "swing", function(){$image.fadeOut('slow')});
+			return $image;
 		}
 		
-		function temp(){
-			document.write("Hello");
-		}
-		
+		$(function(){
+			myHome();
+		});
 	</script>
 	
-	<script type="text/javascript"></script>
+	</head>
 	<body>
 		<h2>Great Athletic Quotes:</h2>
-		<p id="demo"></p>
-	</script>
+		<!--<p id="demo"></p>
+		<p id="myHome"></p>-->
+		<img id="hello" src="" />
 	</body>
-
 </html>
+
+
+<!-- var image = $('...'); // select the image
+
+// animate the image's css properties
+image.animate({
+    right: 500 // move the image's css "right" attribute
+  , width: 500 // make the image's css "width" and "height" attributes larger
+  , height: 500
+  }, 5000, "swing", function(){ // add a complete callback
+    image.fadeOut(); // call fadeOut on the image
+}); -->
