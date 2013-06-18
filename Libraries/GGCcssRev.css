@@ -89,8 +89,28 @@
 	color:#000099;
 }
 
-#hello{
+#piclefttop{
 	position: absolute;
-	left: 100px;
-	top: 150px;
+	left: 40px;
+	top: 500px;
+	width: 300px;
+	height: 200px;
+}
+
+#picleftbottom{
+	position: absolute;
+	left: 20px;
+	top: 500px;
+}
+
+#picrighttop{
+	position: absolute;
+	right: 20px;
+	top: 100px;
+}
+
+#picrightbottom{
+	position: absolute;
+	right: 20px;
+	top: 500px;
 }

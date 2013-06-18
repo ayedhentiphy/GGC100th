@@ -6,93 +6,77 @@
 		<script src="http://code.jquery.com/jquery.js"> </script>
 		<link rel="stylesheet" href="../Libraries/GGCcssRev.css" />
 		
-	<script>
-		var myVar=setInterval(function(){
-			//myTimer()
-		},1000);
-	  
-		var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg'];
-		
-		function myTimer(){
-			document.getElementById("demo").innerHTML = outputTimer();
-			myVar++;
-		}
-		  
-		function outputTimer(){
-			if(myVar < 7){
-			   return  '<img src=../Pictures/dove.jpg alt="A dove"/>';
+		<script>
+			var myVar=setInterval(function(){
+				//myTimer()
+			},1000);
+			
+			var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg', '../Pictures/Church6.jpg'];
+			var count = 0;
+			
+			function leftsideimagestop(){
+				var $imagetop = $('#piclefttop');
+				//$imagetop.attr('src', '../Pictures/dove.jpg');
+				$imagetop.attr('src', sidepics[arraynum]);
+				$imagetop.animate({right: 150, width: 100, height: 100}, 3000, "swing", function(){$imagetop.fadeOut('slow')});
+				return $imagetop;
 			}
 			
-			else if(myVar < 10){
-				return '<img src=../Pictures/GGCsinging.png alt="A Bible" />'
+			function leftsideimagesbottom(){
+				var $imagebottom = $('#picleftbottom');
+				$imagebottom.attr('src', '../Pictures/Church1.jpg');
+				$imagebottom.animate({right: 250, width: 100, height: 100}, 2000, "swing", function(){$imagebottom.fadeOut('slow')});
+				return $imagebottom;
 			}
 			
-			else if(myVar < 15){
-			   return "You miss 100% of the shots you never take."; 
+			function rightsideimagestop(){
+				var $imagerightop = $('#picrighttop');
+				$imagerightop.attr('src', '../Pictures/Church2.jpg');
+				$imagerightop.animate({right: 50, width: 100, height: 100}, 2000, "swing", function(){$imagerightop.fadeOut('slow')});
+				return $imagerightop;
 			}
 			
-			else if(myVar < 20){
-			  return "You can't win unless you learn how to lose.";
+			function rightsideimagesbottom(){
+				var $imagerightbottom = $('#picrightbottom');
+				$imagerightbottom.attr('src', '../Pictures/Church3.jpg');
+				$imagerightbottom.animate({right: 50, width: 100, height: 100}, 2000, "swing", function(){$imagerightbottom.fadeOut('slow')});
+				return $imagerightbottom;
 			}
 			
-			else if(myVar < 25){
-			  return "It took me seventeen years to get three thousand hits in baseball. I did it in one afternoon on the golf course.";
-			}
-			 
-			else if(myVar < 30){
-			  return "It's like wrestling a gorilla- you don't quit when you're tired, you quit when the gorilla is tired";
-			}
+			/*$(function(){
+				leftsideimagestop();
+				leftsideimagesbottom();
+				rightsideimagestop();
+				rightsideimagesbottom();
+			});*/
 			
-			else if(myVar < 35){
-			  return "I can accept failure, but I can't accept not trying.";
-			}
+			$(function(){
+				var inter = setInterval(function(){
+					var $image1 = $('#piclefttop');
+					console.log(count);
+					count++;
+					if(count < 6){
+						$image1.attr('src', sidepics[count]);
+					}
+					else{
+						count = 0;
+						$image1.attr('src', sidepics[count]);
+					}
+					image1.animate({right: 30, width: 100, height: 100}, 2000, "swing", function(){$image1.fadeOut('slow')});
+				}, 2000);
+			});
 			
-			else if(myVar < 40){
-			  return "A lifetime of training for just ten seconds.";
-			}
-			
-			else if(myVar < 45){
-			  return "Luck? Sure. But only after long practice and only with the ability to think under pressure.";
-			}
-			
-			else if(myVar < 50){
-			  return "There are not traffic jams along the extra mile.";
-			}
-			
-			else{
-			  myVar = 0;
-			  return "Champions keep playing until they get it right.";
-			}
-		}
-
-		function myHome(){
-			var $image = $('#hello');
-			console.log($image);
-			$image.attr('src', '../Pictures/dove.jpg');
-			$image.animate({right: 150, width: '500', height: '600'}, 3000, "swing", function(){$image.fadeOut('slow')});
-			return $image;
-		}
-		
-		$(function(){myHome();});
-	</script>
+		</script>
 	
 	</head>
+	
 	<body>
 		<h2>Great Athletic Quotes:</h2>
 		<p id="demo"></p>
-		<p id="myHome"></p>
-		<img id="hello" src="" />
+		<img id="piclefttop" src="" />
+		<!--<img id="picleftbottom" src="" />
+		<img id="picrighttop" src="" />
+		<img id="picrightbottom" src="" />-->
+		
 	</body>
 </html>
-
-
-<!-- var image = $('...'); // select the image
-
-// animate the image's css properties
-image.animate({
-    right: 500 // move the image's css "right" attribute
-  , width: 500 // make the image's css "width" and "height" attributes larger
-  , height: 500
-  }, 5000, "swing", function(){ // add a complete callback
-    image.fadeOut(); // call fadeOut on the image
-}); -->
