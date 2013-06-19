@@ -12,6 +12,7 @@
 			},1000);
 			
 			var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg', '../Pictures/Church6.jpg'];
+			
 			var count = 0;
 			
 			function leftsideimagestop(){
@@ -51,20 +52,27 @@
 			});*/
 			
 			$(function(){
+				
 				var inter = setInterval(function(){
 					var $image1 = $('#piclefttop');
 					console.log(count);
-					count++;
-					if(count < 6){
-						$image1.attr('src', sidepics[count]);
-					}
-					else{
-						count = 0;
-						$image1.attr('src', sidepics[count]);
-					}
-					image1.animate({right: 30, width: 100, height: 100}, 2000, "swing", function(){$image1.fadeOut('slow')});
+					console.log(inter);
+					//count++;
+					$image1.attr('src', sidepics[count]);
+					$image1.animate({
+						right: 30
+						, width: 100
+						, height: 100}
+						, 2000
+						, "swing"
+						, function(){
+							$image1.fadeOut('slow');
+						});
 				}, 2000);
 			});
+			//Show an image increasing
+			//After time has dissipated the next image should appear
+			//The next image should increase in size until it has reached its max dimensions in which it will fadeout
 			
 		</script>
 	
