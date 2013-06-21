@@ -7,4 +7,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 		$('.themephrase').css('color', '#330066');
 	});
+	$('themephrase').click(function(){
+		$('h2').slideDown('slow');
+	});
 });

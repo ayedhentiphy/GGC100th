@@ -21,8 +21,9 @@
 }
 
 .scheduleofevents{
-	border-style:2px solid;
-	border-color:gray;
+	border-style: 2px solid;
+	border-color: red;
+	color: #660066;
 }
 
 .eventsdetails{
@@ -71,14 +72,11 @@
 	/*font-family: CAC Champagne;*/
 }
 
-#churchnametitle2{
-	color:#FFFF00;
-	text-align:center;
-}
-
 #motto{
 	/*color:#FF0000;*/
 	font-family: sans-serif;
+	margin: 20px;
+	color: #660066;
 }
 
 #verse{
@@ -86,7 +84,8 @@
 }
 
 #usingsite{
-	color:#000099;
+	color:#660066;
+	margin: 20px;
 }
 
 #piclefttop{

@@ -14,7 +14,7 @@
 			var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg', '../Pictures/Church6.jpg'];
 			
 			var count = 0;
-			
+			/*
 			function leftsideimagestop(){
 				var $imagetop = $('#piclefttop');
 				//$imagetop.attr('src', '../Pictures/dove.jpg');
@@ -42,7 +42,7 @@
 				$imagerightbottom.attr('src', '../Pictures/Church3.jpg');
 				$imagerightbottom.animate({right: 50, width: 100, height: 100}, 2000, "swing", function(){$imagerightbottom.fadeOut('slow')});
 				return $imagerightbottom;
-			}
+			}*/
 			
 			/*$(function(){
 				leftsideimagestop();
@@ -57,7 +57,7 @@
 					var $image1 = $('#piclefttop');
 					console.log(count);
 					console.log(inter);
-					//count++;
+					count++;
 					$image1.attr('src', sidepics[count]);
 					$image1.animate({
 						right: 30
@@ -70,9 +70,7 @@
 						});
 				}, 2000);
 			});
-			//Show an image increasing
-			//After time has dissipated the next image should appear
-			//The next image should increase in size until it has reached its max dimensions in which it will fadeout
+			
 			
 		</script>
 	
@@ -82,8 +80,8 @@
 		<h2>Great Athletic Quotes:</h2>
 		<p id="demo"></p>
 		<img id="piclefttop" src="" />
-		<!--<img id="picleftbottom" src="" />
-		<img id="picrighttop" src="" />
+		<img id="picleftbottom" src="" />
+		<!--<img id="picrighttop" src="" />
 		<img id="picrightbottom" src="" />-->
 		
 	</body>
