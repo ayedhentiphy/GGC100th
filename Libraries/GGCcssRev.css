@@ -20,15 +20,28 @@
 	background-color:#D4A017;
 }
 
+.navbarpadding{
+	margin-left: 190px;
+}
+
+.testborders{
+	border: 1px dashed blue;
+}
+
 .scheduleofevents{
 	border-style: 2px solid;
 	border-color: red;
 	color: #660066;
 }
 
+.paracolor{
+	color: red;
+}
 .eventsdetails{
 	color:#606060;	
 	font-style: italic;
+	margin: 5px;
+	text-align: center;
 }
 
 .daysofevents{
@@ -36,6 +49,7 @@
 	text-decoration:underline;
 	font-style: italic;
 	font-style: bold;
+	text-align: center;
 }
 
 .center{

@@ -34,6 +34,13 @@
 
 		</script>
 
+	
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
 </head>
 
 	<body class="themebackcolor">
@@ -78,7 +85,53 @@
 			</div>
 
 			<div class="row-fluid">
-				<div class="span12">
+				
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/church1.jpg" alt="Church1" title="Church1" id="wows1_0"/></li>
+<li><img src="data1/images/church2.jpg" alt="Church2" title="Church2" id="wows1_1"/></li>
+<li><img src="data1/images/church3.jpg" alt="Church3" title="Church3" id="wows1_2"/></li>
+<li><img src="data1/images/church4.jpg" alt="Church4" title="Church4" id="wows1_3"/></li>
+<li><img src="data1/images/church5.jpg" alt="Church5" title="Church5" id="wows1_4"/></li>
+<li><img src="data1/images/church6.jpg" alt="Church6" title="Church6" id="wows1_5"/></li>
+<li><img src="data1/images/church7.jpg" alt="Church7" title="Church7" id="wows1_6"/></li>
+<li><img src="data1/images/ggcholybible.jpg" alt="GGCHolyBible" title="GGCHolyBible" id="wows1_7"/></li>
+<li><img src="data1/images/ggcsinging.jpg" alt="GGCsinging" title="GGCsinging" id="wows1_8"/></li>
+<li><img src="data1/images/ggcyouthcross.jpg" alt="GGCyouthcross" title="GGCyouthcross" id="wows1_9"/></li>
+<li><img src="data1/images/healthfairnew2013.jpg" alt="HealthFairNew2013" title="HealthFairNew2013" id="wows1_10"/></li>
+<li><img src="data1/images/thepassion.jpg" alt="ThePassion" title="ThePassion" id="wows1_11"/></li>
+<li><img src="data1/images/cross.jpg" alt="cross" title="cross" id="wows1_12"/></li>
+<li><img src="data1/images/dove.jpg" alt="dove" title="dove" id="wows1_13"/></li>
+<li><img src="data1/images/shapeimage_2.jpg" alt="shapeimage_2" title="shapeimage_2" id="wows1_14"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="Church1"><img src="data1/tooltips/church1.jpg" alt="Church1"/>1</a>
+<a href="#" title="Church2"><img src="data1/tooltips/church2.jpg" alt="Church2"/>2</a>
+<a href="#" title="Church3"><img src="data1/tooltips/church3.jpg" alt="Church3"/>3</a>
+<a href="#" title="Church4"><img src="data1/tooltips/church4.jpg" alt="Church4"/>4</a>
+<a href="#" title="Church5"><img src="data1/tooltips/church5.jpg" alt="Church5"/>5</a>
+<a href="#" title="Church6"><img src="data1/tooltips/church6.jpg" alt="Church6"/>6</a>
+<a href="#" title="Church7"><img src="data1/tooltips/church7.jpg" alt="Church7"/>7</a>
+<a href="#" title="GGCHolyBible"><img src="data1/tooltips/ggcholybible.jpg" alt="GGCHolyBible"/>8</a>
+<a href="#" title="GGCsinging"><img src="data1/tooltips/ggcsinging.jpg" alt="GGCsinging"/>9</a>
+<a href="#" title="GGCyouthcross"><img src="data1/tooltips/ggcyouthcross.jpg" alt="GGCyouthcross"/>10</a>
+<a href="#" title="HealthFairNew2013"><img src="data1/tooltips/healthfairnew2013.jpg" alt="HealthFairNew2013"/>11</a>
+<a href="#" title="ThePassion"><img src="data1/tooltips/thepassion.jpg" alt="ThePassion"/>12</a>
+<a href="#" title="cross"><img src="data1/tooltips/cross.jpg" alt="cross"/>13</a>
+<a href="#" title="dove"><img src="data1/tooltips/dove.jpg" alt="dove"/>14</a>
+<a href="#" title="shapeimage_2"><img src="data1/tooltips/shapeimage_2.jpg" alt="shapeimage_2"/>15</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">jQuery Slideshows</a> by WOWSlider.com v3.9</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div class="span12">
 					<!--Where the moving slide show should be -->
 				</div>
 			</div>
