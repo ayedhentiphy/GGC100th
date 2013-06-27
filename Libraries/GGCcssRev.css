@@ -1,14 +1,11 @@
 .themebackcolor{
-	/*background-color:#F0F0F0;*/
 	background-color:#336699;
 }
 
 .sitecontainer{
-	/*background-color:#336699;*/
 	background-color:#F0F0F0;
 }
 .themecolor{
-	/*color:#F0F0F0;*/
 	background-color:#336699;
 }
 
@@ -34,9 +31,11 @@
 	color: #660066;
 }
 
-.paracolor{
-	color: red;
+.blockbarsettings{
+	background-color: red;
+	text-align: center;
 }
+
 .eventsdetails{
 	color:#606060;	
 	font-style: italic;
@@ -63,6 +62,10 @@
 .themephrase{
 	color:#330066;
 	text-align: center;
+}
+
+.blockbarlinks{
+	color:#330066;
 }
 
 .purple{
@@ -106,14 +109,12 @@
 	position: absolute;
 	left: 40px;
 	top: 500px;
-	width: 50px;
-	height: 50px;
 }
 
 #picleftbottom{
 	position: absolute;
 	left: 20px;
-	top: 500px;
+	top: 500px;	
 }
 
 #picrighttop{
