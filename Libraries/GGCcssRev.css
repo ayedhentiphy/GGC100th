@@ -84,13 +84,9 @@
 	color:#330066;
 	text-align:center;
 	font-family: After Shok;
-	/*font-family: "Precious";*/
-	/*font-family: Alex Brush;*/
-	/*font-family: CAC Champagne;*/
 }
 
 #motto{
-	/*color:#FF0000;*/
 	font-family: sans-serif;
 	margin: 20px;
 	color: #660066;
@@ -108,7 +104,7 @@
 #piclefttop{
 	position: absolute;
 	left: 40px;
-	top: 500px;
+	top: 100px;
 }
 
 #picleftbottom{

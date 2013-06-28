@@ -13,8 +13,8 @@
 			
 			//var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg', '../Pictures/Church6.jpg'];
 			var sidepics = ['Church1.jpg', 'Church2.jpg', 'Church3.jpg', 'Church4.jpg', 'Church5.jpg', 'Church6.jpg'];
-			
 			var count = 0;
+			
 			/*
 			function leftsideimagestop(){
 				var $imagetop = $('#piclefttop');
@@ -58,24 +58,14 @@
 					if (! sidepics[i]) return;
 				
 					var $image1 = $('#piclefttop');
-					//var $image2 = $('#picleftbottom');
 					$image1.attr('src', '../Pictures/' + sidepics[i]);
-					/*$image2.attr('src', '../Pictures/' + sidepics[i + 1]);
-					$image2.show.css({
-						
-					});*/
 					$image1.show().css({
-						//right: 5
-						//, top: 100
-						left: 40
-						, top: 500
-						, width: 10
+						width: 10
 						, height: 10
 					});
 					$image1.animate({
-						right: 30
-						, width: 200
-						, height: 200}
+						width: 150
+						, height: 150}
 						, 4000
 						, "linear"
 						, function(){
