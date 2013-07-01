@@ -7,76 +7,62 @@
 		<link rel="stylesheet" href="../Libraries/GGCcssRev.css" />
 		
 		<script>
-			var myVar=setInterval(function(){
-				//myTimer()
-			},1000);
+
+			var sidepics = ['Church1', 'Church2', 'Church3', 'Church4', 'Church5', 'Church6', 'Church7', 'cross', 'dove', 'GGCHolyBible', 'ThePassion'];
+			var count1 = 0;
+			var count2 = 1;
+			var count3 = 2;
+			var count4 = 3;
 			
-			//var sidepics = ['../Pictures/Church1.jpg', '../Pictures/Church2.jpg', '../Pictures/Church3.jpg', '../Pictures/Church4.jpg', '../Pictures/Church5.jpg', '../Pictures/Church6.jpg'];
-			var sidepics = ['Church1.jpg', 'Church2.jpg', 'Church3.jpg', 'Church4.jpg', 'Church5.jpg', 'Church6.jpg'];
-			var count = 0;
+			var picposition1 = '#piclefttop';
+			var picposition2 = '#picleftbottom';
+			var picposition3 = '#picrighttop';
+			var picposition4 = '#picrightbottom';
+			var timing1 = 5000;
+			var timing2 = 7000;
+			var timing3 = 7000;
+			var timing4 = 5000;
 			
-			/*
-			function leftsideimagestop(){
-				var $imagetop = $('#piclefttop');
-				//$imagetop.attr('src', '../Pictures/dove.jpg');
-				$imagetop.attr('src', sidepics[arraynum]);
-				$imagetop.animate({right: 150, width: 100, height: 100}, 3000, "swing", function(){$imagetop.fadeOut('slow')});
-				return $imagetop;
-			}
-			
-			function leftsideimagesbottom(){
-				var $imagebottom = $('#picleftbottom');
-				$imagebottom.attr('src', '../Pictures/Church1.jpg');
-				$imagebottom.animate({right: 250, width: 100, height: 100}, 2000, "swing", function(){$imagebottom.fadeOut('slow')});
-				return $imagebottom;
-			}
-			
-			function rightsideimagestop(){
-				var $imagerightop = $('#picrighttop');
-				$imagerightop.attr('src', '../Pictures/Church2.jpg');
-				$imagerightop.animate({right: 50, width: 100, height: 100}, 2000, "swing", function(){$imagerightop.fadeOut('slow')});
-				return $imagerightop;
-			}
-			
-			function rightsideimagesbottom(){
-				var $imagerightbottom = $('#picrightbottom');
-				$imagerightbottom.attr('src', '../Pictures/Church3.jpg');
-				$imagerightbottom.animate({right: 50, width: 100, height: 100}, 2000, "swing", function(){$imagerightbottom.fadeOut('slow')});
-				return $imagerightbottom;
-			}*/
-			
-			/*$(function(){
-				leftsideimagestop();
-				leftsideimagesbottom();
-				rightsideimagestop();
-				rightsideimagesbottom();
-			});*/
+			var righty = 40, lefty = 40, toppy = 100, bottomy = 500;
 			
 			$(function(){
 				
-				var animatePicture = function(i){
-					if (! sidepics[i]) return;
+				var timingtest = function(){
+					return (Math.floor((Math.random() * 5) + 5)) * 1000;
+				};
 				
-					var $image1 = $('#piclefttop');
-					$image1.attr('src', '../Pictures/' + sidepics[i]);
+				var animatePicture = function(count, picposition, timing, hands, arctic){ //Hands: right or left; Arctic: top or bottom (North & South)
+					if(count === 11) count = 0;
+					
+					var $image1 = $(picposition);
+					$image1.attr('src', '../Pictures/' + sidepics[count] + '.jpg');
 					$image1.show().css({
+						right: hands
+						, bottom: arctic
+						,
 						width: 10
 						, height: 10
 					});
 					$image1.animate({
 						width: 150
 						, height: 150}
-						, 4000
+						, timing
 						, "linear"
 						, function(){
-							$image1.fadeOut('slow',function(){
+							$image1.fadeOut('slow',function(){	
 								count++;
-								animatePicture(count);
+								animatePicture(count, picposition, timingtest(), hands, arctic);
 							});
 						});
 				};
-				animatePicture(count);
+				
+				animatePicture(count1, picposition1, timingtest(), lefty, toppy);
+				animatePicture(count2, picposition2, timingtest(), lefty, bottomy);
+				animatePicture(count3, picposition3, timingtest(), righty, toppy);
+				animatePicture(count4, picposition4, timingtest(), righty, bottomy);
 			});
+			
+			//Variable change where the pictures pop up on the side window
 			
 		</script>
 	
@@ -87,8 +73,8 @@
 		<p id="demo"></p>
 		<img id="piclefttop" src="" />
 		<img id="picleftbottom" src="" />
-		<!--<img id="picrighttop" src="" />
-		<img id="picrightbottom" src="" />-->
+		<img id="picrighttop" src="" />
+		<img id="picrightbottom" src="" />
 		
 	</body>
 </html>

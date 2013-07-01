@@ -109,18 +109,18 @@
 
 #picleftbottom{
 	position: absolute;
-	left: 20px;
+	left: 40px;
 	top: 500px;	
 }
 
 #picrighttop{
 	position: absolute;
-	right: 20px;
+	right: 40px;
 	top: 100px;
 }
 
 #picrightbottom{
 	position: absolute;
-	right: 20px;
+	right: 40px;
 	top: 500px;
 }
