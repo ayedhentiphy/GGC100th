@@ -14,16 +14,7 @@
 			var count3 = 2;
 			var count4 = 3;
 			
-			var picposition1 = '#piclefttop';
-			var picposition2 = '#picleftbottom';
-			var picposition3 = '#picrighttop';
-			var picposition4 = '#picrightbottom';
-			var timing1 = 5000;
-			var timing2 = 7000;
-			var timing3 = 7000;
-			var timing4 = 5000;
-			
-			var righty = 40, lefty = 40, toppy = 100, bottomy = 500;
+			var hands = 40, toppy = 100, bottomy = 500;
 			
 			$(function(){
 				
@@ -56,10 +47,10 @@
 						});
 				};
 				
-				animatePicture(count1, picposition1, timingtest(), lefty, toppy);
-				animatePicture(count2, picposition2, timingtest(), lefty, bottomy);
-				animatePicture(count3, picposition3, timingtest(), righty, toppy);
-				animatePicture(count4, picposition4, timingtest(), righty, bottomy);
+				animatePicture(count1, '#piclefttop', timingtest(), hands, toppy);
+				animatePicture(count2, '#picleftbottom', timingtest(), hands, bottomy);
+				animatePicture(count3, '#picrighttop', timingtest(), hands, toppy);
+				animatePicture(count4, '#picrightbottom', timingtest(), hands, bottomy);
 			});
 			
 			//Variable change where the pictures pop up on the side window
@@ -70,7 +61,6 @@
 	
 	<body>
 		<h2>Great Athletic Quotes:</h2>
-		<p id="demo"></p>
 		<img id="piclefttop" src="" />
 		<img id="picleftbottom" src="" />
 		<img id="picrighttop" src="" />
