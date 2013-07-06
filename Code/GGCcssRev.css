@@ -1,10 +1,7 @@
-.themebackcolor{
-	background-color:#336699;
-}
-
 .sitecontainer{
 	background-color:#F0F0F0;
 }
+
 .themecolor{
 	background-color:#336699;
 }
@@ -103,24 +100,24 @@
 
 #piclefttop{
 	position: absolute;
-	left: 40px;
-	top: 100px;
+	left: 10px;
+	top: 150px;
 }
 
 #picleftbottom{
 	position: absolute;
-	left: 40px;
-	top: 500px;	
+	left: 10px;
+	top: 600px;	
 }
 
 #picrighttop{
 	position: absolute;
-	right: 40px;
-	top: 100px;
+	right: 10px;
+	top: 150px;
 }
 
 #picrightbottom{
 	position: absolute;
-	right: 40px;
-	top: 500px;
+	right: 10px;
+	top: 600px;
 }
