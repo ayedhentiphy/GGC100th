@@ -1,3 +1,7 @@
+body{
+	background-color: #F0F0F0;
+}
+
 .sitecontainer{
 	background-color:#F0F0F0;
 }
@@ -18,13 +22,9 @@
 	margin-left: 190px;
 }
 
-.testborders{
-	border: 1px dashed blue;
-}
-
 .scheduleofevents{
-	border-style: 2px solid;
-	border-color: red;
+	border: 2px solid;
+	border-color: #330066;
 	color: #660066;
 }
 
@@ -41,7 +41,8 @@
 }
 
 .daysofevents{
-	color:#006699;
+	/*color:#006699;*/
+	color:#330066;
 	text-decoration:underline;
 	font-style: italic;
 	font-style: bold;
