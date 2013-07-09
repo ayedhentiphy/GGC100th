@@ -1,10 +1,11 @@
-.themebackcolor{
-	background-color:#336699;
+body{
+	background-color: #F0F0F0;
 }
 
 .sitecontainer{
 	background-color:#F0F0F0;
 }
+
 .themecolor{
 	background-color:#336699;
 }
@@ -21,13 +22,9 @@
 	margin-left: 190px;
 }
 
-.testborders{
-	border: 1px dashed blue;
-}
-
 .scheduleofevents{
-	border-style: 2px solid;
-	border-color: red;
+	border: 2px solid;
+	border-color: #330066;
 	color: #660066;
 }
 
@@ -44,7 +41,8 @@
 }
 
 .daysofevents{
-	color:#006699;
+	/*color:#006699;*/
+	color:#330066;
 	text-decoration:underline;
 	font-style: italic;
 	font-style: bold;
@@ -103,24 +101,24 @@
 
 #piclefttop{
 	position: absolute;
-	left: 40px;
-	top: 100px;
+	left: 10px;
+	top: 150px;
 }
 
 #picleftbottom{
 	position: absolute;
-	left: 40px;
-	top: 500px;	
+	left: 10px;
+	top: 600px;	
 }
 
 #picrighttop{
 	position: absolute;
-	right: 40px;
-	top: 100px;
+	right: 10px;
+	top: 150px;
 }
 
 #picrightbottom{
 	position: absolute;
-	right: 40px;
-	top: 500px;
+	right: 10px;
+	top: 600px;
 }
