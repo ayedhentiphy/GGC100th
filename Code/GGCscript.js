@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-	<head>
-		<meta charset=utf-8 />
-		<title>Cycling Pictures</title>
+$(document).ready(function(){
 
-		<script src="http://code.jquery.com/jquery.js"> </script>
-		<link rel="stylesheet" href="../Code/GGCcssRev.css" />
-		
-		<script>
+			
+			
+			//UPDATED & STABLE ON 7/1/13 @ 3:35 PM
 
 			var sidepics = ['Church1', 'Church2', 'Church3', 'Church4', 'Church5', 'Church6', 'Church7', 'cross', 'dove', 'GGCHolyBible', 'ThePassion'];
 			var count1 = 0;
@@ -65,16 +61,13 @@
 			//Variable change where the pictures pop up on the side window
 			//Randomly cycling through pictures of the array never repeating the same picture till all pictures have been shown
 			
-		</script>
-	
-	</head>
-	
-	<body>
-		<h2>Great Athletic Quotes:</h2>
-		<img id="piclefttop" src="" />
-		<img id="picleftbottom" src="" />
-		<img id="picrighttop" src="" />
-		<img id="picrightbottom" src="" />
-		
-	</body>
-</html>
+			
+	$('.themephrase').mouseenter(function(){
+		$('.themephrase').css('color', '#99FF00');
+	}).mouseleave(function(){
+		$('.themephrase').css('color', '#330066');
+	});
+	$('themephrase').click(function(){
+		$('h2').slideDown('slow');
+	});
+});
