@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
 			
-			
+			myVid=document.getElementById("video1");
+myVid.autoplay=true;
+//myVid.load();
+myVid.autoplay();
+
 			//UPDATED & STABLE ON 7/1/13 @ 3:35 PM
 
 			var sidepics = ['Church1', 'Church2', 'Church3', 'Church4', 'Church5', 'Church6', 'Church7', 'cross', 'dove', 'GGCHolyBible', 'ThePassion'];
