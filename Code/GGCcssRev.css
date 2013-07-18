@@ -49,6 +49,11 @@ body{
 	text-align:center;
 }
 
+.decades{
+	margin-left: 20px;
+	padding: 20px;
+}
+
 .timedate{
 	color:#330066;
 }
