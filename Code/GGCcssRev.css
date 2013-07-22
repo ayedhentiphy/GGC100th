@@ -2,6 +2,10 @@ body{
 	background-color: #F0F0F0;
 }
 
+.fromright{
+	padding: 10px;
+}
+
 .sitecontainer{
 	background-color:#F0F0F0;
 }
@@ -15,7 +19,7 @@ body{
 }
 
 .navbarpadding{
-	margin-left: 100px;
+	margin-left: 40px;
 }
 
 .scheduleofevents{
