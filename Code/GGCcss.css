@@ -1,120 +1,23 @@
-.fromright{
-	padding: 10px;
-}
+.blockbarlinks{ color:#330066;}
+.blockbarsettings{ background-color: #FFFF00; text-align: center;}
+.brown{ color: #663300;}
+.center{ text-align:center;}
+.daysofevents{ color:#330066; text-decoration:underline; font-style: italic; font-style: bold; text-align: center;}
+.decades{ margin-left: 20px; padding: 20px;}
+.eventsdetails{	color:#606060; font-style: italic; margin: 5px; text-align: center;}
+.navbarpadding{ margin-left: 50px;}
+.para{ color:color:#606060;}
+.purple{ color:#330066;}
+.scheduleofevents{border: 2px solid; border-color: #330066; color: #660066;}
+.sitecontainer{	background-color:#F0F0F0;}
+.themephrase{ color:#330066; text-align: center;}
+.timedate{ color:#330066;}
 
-.sitecontainer{
-	background-color:#F0F0F0;
-}
-
-.themecolor{
-	background-color:#336699;
-}
-
-.navbarpadding{
-	margin-left: 40px;
-}
-
-.scheduleofevents{
-	border: 2px solid;
-	border-color: #330066;
-	color: #660066;
-}
-
-.blockbarsettings{
-	background-color: #FFFF00;
-	text-align: center;
-}
-
-.eventsdetails{
-	color:#606060;	
-	font-style: italic;
-	margin: 5px;
-	text-align: center;
-}
-
-.daysofevents{
-	color:#330066;
-	text-decoration:underline;
-	font-style: italic;
-	font-style: bold;
-	text-align: center;
-}
-
-.center{
-	text-align:center;
-}
-
-.decades{
-	margin-left: 20px;
-	padding: 20px;
-}
-
-.timedate{
-	color:#330066;
-}
-
-.themephrase{
-	color:#330066;
-	text-align: center;
-}
-
-.blockbarlinks{
-	color:#330066;
-}
-
-.purple{
-	color:#330066;
-}
-
-.brown{
-	color: #663300;
-}
-
-.para{
-	color:color:#606060;
-}
-
-#churchnametitle1{
-	color:#330066;
-	font-family: Times New Roman;
-	font-size: 12pt;
-}
-
-#motto{
-	font-family: sans-serif;
-	margin: 20px;
-	color: #660066;
-}
-
-#verse{
-	color:#AB1313;
-}
-
-#usingsite{
-	color:#660066;
-	margin: 20px;
-}
-
-#piclefttop{
-	position: absolute;
-	left: 10px;
-	top: 150px;
-}
-
-#picleftbottom{
-	position: absolute;
-	left: 10px;
-	top: 600px;	
-}
-
-#picrighttop{
-	position: absolute;
-	right: 10px;
-	top: 150px;
-}
-
-#picrightbottom{
-	position: absolute;
-	right: 10px;
-	top: 600px;
-}
+#churchnametitle1{ color:#330066; font-family: Times New Roman; font-size: 12pt;}
+#motto{ font-family: sans-serif; margin: 20px; color: #660066;}
+#picleftbottom{ position: absolute; left: 10px; top: 600px;}
+#piclefttop{ position: absolute; left: 10px; top: 150px;}
+#picrightbottom{ position: absolute; right: 10px; top: 600px;}
+#picrighttop{ position: absolute; right: 10px; top: 150px;}
+#usingsite{ color:#660066; margin: 20px;}
+#verse{ color:#AB1313;}

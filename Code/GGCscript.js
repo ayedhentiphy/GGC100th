@@ -1,12 +1,6 @@
 $(document).ready(function(){
 
-			
-			myVid=document.getElementById("video1");
-myVid.autoplay=true;
-//myVid.load();
-myVid.autoplay();
-
-			//UPDATED & STABLE ON 7/1/13 @ 3:35 PM
+			//UPDATED & STABLE ON 7/26/13 @ 11:10 AM
 
 			var sidepics = ['Church1', 'Church2', 'Church3', 'Church4', 'Church5', 'Church6', 'Church7', 'cross', 'dove', 'GGCHolyBible', 'ThePassion'];
 			var count1 = 0;
@@ -43,8 +37,8 @@ myVid.autoplay();
 						, height: 10
 					});
 					$image1.animate({
-						width: 150
-						, height: 150}
+						width: 80
+						, height: 80}
 						, timing
 						, "linear"
 						, function(){
@@ -65,12 +59,6 @@ myVid.autoplay();
 			//Variable change where the pictures pop up on the side window
 			//Randomly cycling through pictures of the array never repeating the same picture till all pictures have been shown
 			
-			
-	$('.themephrase').mouseenter(function(){
-		$('.themephrase').css('color', '#99FF00');
-	}).mouseleave(function(){
-		$('.themephrase').css('color', '#330066');
-	});
 	$('themephrase').click(function(){
 		$('h2').slideDown('slow');
 	});
