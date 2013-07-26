@@ -1,44 +1,52 @@
-.themebackcolor{
-	background-color:#F0F0F0;
-	/*background-color:#336699;*/
+.fromright{
+	padding: 10px;
 }
 
 .sitecontainer{
-	/*background-color:#336699;*/
 	background-color:#F0F0F0;
 }
+
 .themecolor{
-	/*color:#F0F0F0;*/
 	background-color:#336699;
 }
 
-.image{
-	background-image: url("dove.jpg.");
-}
-
-.GGC100years{
-	background-color:#D4A017;
+.navbarpadding{
+	margin-left: 40px;
 }
 
 .scheduleofevents{
-	border-style:2px solid;
-	border-color:gray;
+	border: 2px solid;
+	border-color: #330066;
+	color: #660066;
+}
+
+.blockbarsettings{
+	background-color: #FFFF00;
+	text-align: center;
 }
 
 .eventsdetails{
 	color:#606060;	
 	font-style: italic;
+	margin: 5px;
+	text-align: center;
 }
 
 .daysofevents{
-	color:#006699;
+	color:#330066;
 	text-decoration:underline;
 	font-style: italic;
 	font-style: bold;
+	text-align: center;
 }
 
 .center{
 	text-align:center;
+}
+
+.decades{
+	margin-left: 20px;
+	padding: 20px;
 }
 
 .timedate{
@@ -47,34 +55,66 @@
 
 .themephrase{
 	color:#330066;
+	text-align: center;
 }
 
-#churchnametitle1{
+.blockbarlinks{
 	color:#330066;
-	text-align:center;
-	font-family: After Shok;
-	/*font-family: "Precious";*/
-	/*font-family: Alex Brush;*/
-	/*font-family: CAC Champagne;*/
+}
+
+.purple{
+	color:#330066;
+}
+
+.brown{
+	color: #663300;
 }
 
 .para{
 	color:color:#606060;
 }
 
-#churchnametitle2{
-	color:#FFFF00;
-	text-align:center;
+#churchnametitle1{
+	color:#330066;
+	font-family: Times New Roman;
+	font-size: 12pt;
 }
 
-#mottocolor{
-	color:#FF0000;
+#motto{
+	font-family: sans-serif;
+	margin: 20px;
+	color: #660066;
 }
 
-#versecolor{
+#verse{
 	color:#AB1313;
 }
 
 #usingsite{
-	color:#000099;
+	color:#660066;
+	margin: 20px;
+}
+
+#piclefttop{
+	position: absolute;
+	left: 10px;
+	top: 150px;
+}
+
+#picleftbottom{
+	position: absolute;
+	left: 10px;
+	top: 600px;	
+}
+
+#picrighttop{
+	position: absolute;
+	right: 10px;
+	top: 150px;
+}
+
+#picrightbottom{
+	position: absolute;
+	right: 10px;
+	top: 600px;
 }
