@@ -1,5 +1,5 @@
 .blockbarlinks{ color:#330066;}
-.blockbarsettings{ background-color: #FFFF00; text-align: center;}
+.blockbarsettings{ background-color: #FFFF00; text-align: center; max-width: 1190px;}
 .brown{ color: #663300;}
 .center{ text-align:center;}
 .daysofevents{ color:#330066; text-decoration:underline; font-style: italic; font-style: bold; text-align: center;}
@@ -9,7 +9,7 @@
 .para{ color:color:#606060;}
 .purple{ color:#330066;}
 .scheduleofevents{border: 2px solid; border-color: #330066; color: #660066;}
-.sitecontainer{	background-color:#F0F0F0;}
+.sitecontainer{	background-color:#F0F0F0; max-width: 1160px;}
 .themephrase{ color:#330066; text-align: center;}
 .timedate{ color:#330066;}
 
