@@ -4,6 +4,10 @@
   -o-background-size: cover;
   background-size: cover;}*/
 
+#purplebackcolor{color: #470047}/*Purple*/
+#goldbackcolor{color: #E6B800;}/*Gold*/
+
+
 .blockbarlinks{ color:#330066;}
 .blockbarsettings{ background-color: #FFFF00; text-align: center; max-width: 1190px;}
 .brown{ color: #663300;}
@@ -27,3 +31,4 @@
 #picrighttop{ position: absolute; right: 10px; top: 150px;}
 #usingsite{ color:#660066; margin: 20px;}
 #verse{ color:#AB1313;}
+
