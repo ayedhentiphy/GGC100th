@@ -12,9 +12,13 @@
 		<link href="../Libraries/bootstrap-theme.min.css" rel="stylesheet" media="screen">
 		<link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet" media="screen">
 		
+		<link href="../Libraries/jquery-1.3.2.min.js" rel="stylesheet" media="screen">
+		<link href="../Libraries/jquery-1.4.4.min.js" rel="stylesheet" media="screen">
+		<link href="../Libraries/jquery-1.6.1.min.js" rel="stylesheet" media="screen">
+		
+		
 		<link rel="stylesheet" type="text/css" href="GGCcss.css">
 		<link rel="stylesheet" type="text/css" href="LightboxCSS.css">
-		
 		
 		<link href="../Libraries/glyphicons-halflings-regular.eot" rel="stylesheet" media="screen">
 		<link href="../Libraries/glyphicons-halflings-regular.svg" rel="stylesheet" media="screen">
@@ -25,15 +29,44 @@
 	
 	<body>
 	
-	<div class="container marketing">
+	<div class="bs-example">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://placehold.it/900x500" alt="First slide">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/900x500" alt="Second slide">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/900x500" alt="Third slide">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div><!-- /example -->
+  
+	<div class="container">
 	
+	
+  
 	<!-- Page Heads -->
       <div class="row">
 		<div class="col-lg-3">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image" width="140" height="140">
           <h2 class="pageheads">Weekend Events</h2>
 		  <p>Check out what's going on during our 100th weekend celebration starting on Friday October 24th!</p>
-          <p><a class="btn btn-default" href="#Weekend Events" role="button">View details &raquo;</a></p>s
+          <p><a class="btn btn-default" href="#Weekend Events" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-3">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image">
@@ -44,7 +77,7 @@
         <div class="col-lg-3">
           <img class="img-circle" src="http://placehold.it/140x140" alt="Generic placeholder image">
           <h2 class="pageheads">Facebook</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+		  <p>Like us on Facebook and comment on our page! Don't forget to share your pictures and memories!</p>
           <p><a class="btn btn-default" href="#Facebook" role="button">View details &raquo;</a></p>
         </div>
 		<div class="col-lg-3">
@@ -55,7 +88,7 @@
         </div>
       </div><!-- /.row -->
 	  
-	<hr class="featurette-divider">
+	<hr class="featurette-divider" id="Weekend Events">
 	
       <div class="row featurette">
         <div class="col-md-7">
@@ -67,7 +100,7 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" id="Main Page">
 
       <div class="row featurette">
         <div class="col-md-5">
@@ -79,7 +112,7 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider" id="Facebook">
 
       <div class="row featurette">
         <div class="col-md-7">
@@ -91,20 +124,11 @@
         </div>
       </div>
 
-	  <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" id="" src="http://placehold.it/500x500" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-	  
       <hr class="featurette-divider">
 	  </div>
+	  
+	  <script href="../Libraries/bootstrap.min.js"></script>
+		<script href="../Libraries/bootstrap.js"</script>
 	  </body>
 </html>
       <!-- /END THE FEATURETTES -->
