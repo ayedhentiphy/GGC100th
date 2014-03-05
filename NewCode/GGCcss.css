@@ -1,10 +1,13 @@
-body{background-image: url('dove.jpg');}
-
 #purplebackcolor{background-color: #470047; color: #FFFFFF;}/*Purple*/
 #goldbackcolor{background-color: #E6B800; }/*Gold*/
 #whitebackground{background-color: #FFFFFF;}
 #solidborder{border-style: groove; text-align: center;}
 #midcentering{text-align: center;}
+
+/*Below are for temporary reasons*/
+#tempcolor{background-color: #CCCCFF;}
+#gracename{color: #9900CC; font-size: 600%;}
+
 
 #special{width: 100%; height:100%;}
 #blacknavbarcustom{background-color: black;}
