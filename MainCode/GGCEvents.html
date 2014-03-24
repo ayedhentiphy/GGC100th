@@ -2,14 +2,16 @@
 
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 		<title>100 years!</title>
 		
-		<meta name="viewport" content="width=device-width, intial-scale=1.0">
-		
-		<link href="../Libraries/bootstrap.css" rel="stylesheet" media="screen">	
-		<link href="../Libraries/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="../Libraries/bootstrap-theme.css" rel="stylesheet" media="screen">
-		<link href="../Libraries/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+		<link href="../css/bootstrap.css" rel="stylesheet" media="screen">	
+		<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet" media="screen">
+		<link href="../css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
 		<link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet" media="screen">
 		
 		<link href="../Libraries/jquery-1.3.2.min.js" rel="stylesheet" media="screen">
@@ -17,19 +19,14 @@
 		<link href="../Libraries/jquery-1.6.1.min.js" rel="stylesheet" media="screen">
 		
 		
-		<link rel="stylesheet" type="text/css" href="GGCcss.css">
-		<link rel="stylesheet" type="text/css" href="LightboxCSS.css">
-		
-		<link href="../Libraries/glyphicons-halflings-regular.eot" rel="stylesheet" media="screen">
-		<link href="../Libraries/glyphicons-halflings-regular.svg" rel="stylesheet" media="screen">
-		<link href="../Libraries/glyphicons-halflings-regular.ttf" rel="stylesheet" media="screen">
-		<link href="../Libraries/glyphicons-halflings-regular.woff" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="../css/MainCodeCSS.css">
+		<link rel="stylesheet" type="text/css" href="../css/LightboxCSS.css">
 		
 	</head>
 	
 	<body>
 	
-	<div class="container" id="tempcolor">
+	<div class="container" >
 	
 		<div class="row">
 			<div class="col-md-3">
@@ -40,8 +37,54 @@
 				<h4>Serving in the Harlem area of New York City for nearly 100 years.</h4>
 			</div>
 		</div>
-	
 	</div>
+	
+	<div class="row">
+		<div class="col-md-12">
+			 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../Pictures/Cross1.jpg" id="idealsize" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+			  <p> Just a test people!!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../Pictures/Cross2.jpg" id="idealsize" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+			  <p>A Second test people!!!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../Pictures/Cross3.jpg" id="idealsize" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+			  <p> Third test people!! Oh yeah!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+
+		</div>
+    </div>
+	<!-- /.carousel -->
+
 	
 	<!--<div class="bs-example">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -68,7 +111,34 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
     </div>
-  </div><!-- /example -->
+  </div>-->
+	
+	<!--<div class="bs-example">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://placehold.it/900x500" alt="First slide">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/900x500" alt="Second slide">
+        </div>
+        <div class="item">
+          <img src="http://placehold.it/900x500" alt="Third slide">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>-->
   
 	<br>
 	<br>
@@ -157,7 +227,7 @@
 	  
 		<script href="../Libraries/bootstrap.min.js"></script>
 		<script href="../Libraries/bootstrap.js"</script>
-		
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 	  </body>
 </html>
       <!-- /END THE FEATURETTES -->
