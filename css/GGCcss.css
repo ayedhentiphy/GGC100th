@@ -8,11 +8,10 @@
 #tempcolor{background-color: #CCCCFF;}
 #gracename{color: #9900CC; font-size: 600%;}
 
-#justtesting{
-width:300px;
-height:100px;
-background-color:yellow;
-box-shadow: 10px 10px 5px #888888;
+.passive{
+{
+border-style:solid;
+border-width:5px;
 }
 #special{width: 100%; height:100%;}
 #blacknavbarcustom{background-color: black;}
