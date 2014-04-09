@@ -28,22 +28,28 @@
 	
 	<body>
 
-	<div class="container">
+	<div class="container" id="bodybackcolor">
 		<div class="container>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-					<img src="../Pictures/GGCChurchPic.png" alt="image of dove" width="200" height="200" />
+					<img src="../Pictures/GGCChurchPic.png" alt="image of dove" width="200" height="200"  class="pictureshadows"/>
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-6">
 					<h1 id="gracename"><i>Grace Gospel Chapel</i></h1>
 					<h4>Serving in the Harlem area of New York City for nearly 100 years.</h4>
+				</div>
+				<div class="col-md-3">
+					<img src="../Pictures/GGC100thLogoFilled.JPG" alt="image of dove" width="200" height="200" class="pictureshadows"/>
 				</div>
 			</div>
 		</div>
 		
-		<!--Carousel-->
-		<div class="bs-example">
+		<br>
+		<br>
+		
+		<!--Top Carousel-->
+		<div class="row">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -69,55 +75,69 @@
 				</a>
 			</div>
 		</div>
-		<!--End of Carousel-->
+		<!--End of Top Carousel-->
 		
 		<br>
 		<br>
 		
-		<!--<div class="container" id="simplebackground">-->
+			<!--<div class="container" id="simplebackground">-->
 		
-		<!--Main Page Link Tabs-->
+			<!--Main Page Link Tabs-->
 			<div class="row">
 				<div class="passive">
-				<div class="col-lg-3">
-					<img class="img-circle" src="../Pictures/Events.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h2 class="pageheads">Weekend Events</h2>
-					<p>Check out what's going on during our 100th weekend celebration starting on Friday October 24th!</p>
-					<!--<p><a class="btn btn-default" href="#Weekend Events" role="button">View details &raquo;</a></p>-->
+					<!--Weekend Events Link-->
+					<div class="col-lg-3">
+						<img class="img-circle" src="../Pictures/Events.jpg" alt="Generic placeholder image" width="140" height="140">
+						<h2 class="pageheads">Weekend Events</h2>
+						<p>Check out what's going on during our 100th weekend celebration starting on Friday October 24th!</p>
+						<!--<p><a class="btn btn-default" href="#Weekend Events" role="button">View details &raquo;</a></p>-->
+					</div>
+					<!--End Of Weekend Events Link-->
+				
+				
+					<!--Our Main Page Link-->
+					<div class="col-lg-3">
+						<a href="http://www.gracegospelchapelnyc.org"><img class="img-circle" src="../Pictures/GraceMainPage.jpg" alt="Generic placeholder image" width="140" height="140"></a>
+						<h2 class="pageheads">Our Main Page</h2>
+						<p>Visit our main website and explore what God has done at Grace Gospel Chapel!</p>
+						<!--<p><a class="btn btn-default" href="http://www.gracegospelchapelnyc.org" role="button">View details &raquo;</a></p>-->
+					</div>
+					<!--End Of Our Main Page Link-->
+				
+					<!--Facebook Link-->
+					<div class="col-lg-3">
+						<a href="https://www.facebook.com/"><img class="img-circle" src="../Pictures/FacebookLike.jpg" alt="Generic placeholder image" width="140" height="140"></a>
+						<h2 class="pageheads">Facebook</h2>
+						<p>Like us on Facebook and comment on our page! Don't forget to share your pictures and memories!</p>
+						<!--<p><a class="btn btn-default" href="#Facebook" role="button">View details &raquo;</a></p>-->
+					</div>
+					<!--End Of Facebook Link-->
+				
+					<!--Travel Assistance Link-->
+					<div class="col-lg-3">
+						<a href="TravelAssistance.html"><img class="img-circle" src="../Pictures/Travel.jpg" alt="Generic placeholder image" width="140" height="140"></a>
+						<h2 class="pageheads">Travel Assistance</h2>
+						<p>For help in travel accomodations: hotels, public transportation in the city, and more!</p>
+						<!--<p><a class="btn btn-default" href="TravelAssistance.html" role="button">View details &raquo;</a></p>-->
+					</div>
+					<!--End Of Travel Assistance Link-->
 				</div>
-				</div>
-				<div class="col-lg-3">
-					<a href="http://www.gracegospelchapelnyc.org"><img class="img-circle" src="../Pictures/GraceMainPage.jpg" alt="Generic placeholder image" width="140" height="140"></a>
-					<h2 class="pageheads">Our Main Page</h2>
-					<p>Visit our main website and explore what God has done at Grace Gospel Chapel!</p>
-					<!--<p><a class="btn btn-default" href="http://www.gracegospelchapelnyc.org" role="button">View details &raquo;</a></p>-->
-				</div>
-				<div class="col-lg-3">
-					<a href="https://www.facebook.com/"><img class="img-circle" src="../Pictures/FacebookLike.jpg" alt="Generic placeholder image" width="140" height="140"></a>
-					<h2 class="pageheads">Facebook</h2>
-					<p>Like us on Facebook and comment on our page! Don't forget to share your pictures and memories!</p>
-					<!--<p><a class="btn btn-default" href="#Facebook" role="button">View details &raquo;</a></p>-->
-				</div>
-				<div class="col-lg-3">
-					<a href="TravelAssistance.html"><img class="img-circle" src="../Pictures/Travel.jpg" alt="Generic placeholder image" width="140" height="140"></a>
-					<h2 class="pageheads">Travel Assistance</h2>
-					<p>For help in travel accomodations: hotels, public transportation in the city, and more!</p>
-					<!--<p><a class="btn btn-default" href="TravelAssistance.html" role="button">View details &raquo;</a></p>-->
-				</div>
-		  </div>
-		  <!--End of Main Page Link Tabs-->
-
-		<!--<hr class="featurette-divider" id="Weekend Events">-->
+			</div>
+			
+			<br>
+			<br>
+			
+			<!--<hr class="featurette-divider" id="Weekend Events">-->
 		
 			<!--Friday Featurette-->
-			<div class="row featurette" id="testcolor">
+			<div class="row featurette featurettebackgroundcolor">
 				<div class="col-md-3">
 					<img class="featurette-image img-responsive" src="../Pictures/GGCyouthcross.png" alt="Generic placeholder image" width="300" height="300">
 				</div>
-				<div class="col-md-6" id="featurettbackgroundcolor">
+				<div class="col-md-6">
 					<h3 class="featurette-heading">Opening Celebration...</h2>
 					<h3 id="midcentering"><b>Friday, October 24, 7:30PM</b></h3>
-					<h3 >Grace Gospel Chapel</h3>
+					<h3>Grace Gospel Chapel</h3>
 					<h3><i>HIStory, Our Song!</i></h3>
 					<h3>A creative mix of music, drama, and spoken word</h3>
 				</div>
@@ -128,14 +148,14 @@
 
 			<!--End Of Friday Featurette-->
 		  
-		<!--<hr class="featurette-divider">-->
+			<!--<hr class="featurette-divider">-->
 		
-		<!--Saturday Featurette-->
+			<!--Saturday Featurette-->
 			<div class="row featurette">
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive" src="../Pictures/BeckwithePointe.jpg" alt="Generic placeholder image" width="500" height="500">
 				</div>
-				<div class="col-md-7" id="featurettbackgroundcolor">
+				<div class="col-md-7">
 					<h2 class="featurette-heading">The <i>"Royale"</i> Banquet</h2>
 					<h3 id="midcentering"><b>Saturday, October 25, 12:30 PM</b></h3>
 					<h3>Beckwithe Pointe, New Rochelle</h3>
@@ -146,10 +166,10 @@
 			</div>
 			<!--End of Saturday Featurette-->
 			
-		<!--<hr class="featurette-divider">-->
+			<!--<hr class="featurette-divider">-->
 			
 			<!--Sunday Featurette-->
-			<div class="row featurette" id="testcolor">
+			<div class="row featurette featurettebackgroundcolor">
 				<div class="col-md-7">
 					<h2 class="featurette-heading" id="Weekend Events"> ...and the Finale...</h2>
 					<h3 id="midcentering"><b>Sunday, October 26, 12:30 PM</b></h3>
@@ -163,8 +183,7 @@
 					<img class="featurette-image img-responsive" src="../Pictures/BreakingOfBread.jpg" alt="Generic placeholder image" width="500" height="500">
 				</div>
 			</div>
-		  <!--End of Sunday Featurette-->
-		  
+			<!--End of Sunday Featurette-->
 		</div>
 	</body>
 </html>
