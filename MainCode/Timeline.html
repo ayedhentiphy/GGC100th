@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+		
 	<head>
 		
 		<meta charset="utf-8">
@@ -8,95 +9,100 @@
 	
 		<title>Timeline</title>
 		
-		<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="../css/bootstrap-responsive.css" rel="stylesheet" media="screen">
-		<link href="../css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+		<meta name="viewport" content="width=device-width, intial-scale=1.0">
+		
 		<link href="../css/bootstrap.css" rel="stylesheet" media="screen">	
-		<link rel="stylesheet" type="text/css" href="../Code/GGCcss.css">
+		<link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet" media="screen">
+		<link href="../css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+		<link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet" media="screen">
+		
+		<script src="http://code.jquery.com/jquery.js"> </script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../css/GGCcss.css">
+		<link rel="stylesheet" type="text/css" href="../css/LightboxCSS.css">
 		
 	</head>
 	
 	<body>
-		<div class="container sitecontainer">
 			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<img src="../Pictures/shapeimage_2.png" width=250 height=250 alt="A picture of Grace's Church">
-					</div>
-				</div>
-			</div>
-		
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						 <h2 id="churchnametitle1"><strong>GRACE GOSPEL CHAPEL: 100 YEARS OF MINISTRY</strong></h2>
-					</div>
-				</div>
-			</div>
+				
+				<div class="container>
 			
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<h2 class="themephrase"><em>A century of HIS faithfulness. An eternity of hope.</em></h2>
+				<!--Grace Name, Pictures & Theme Region-->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<img class="pictureshadows" src="../Pictures/GGCChurchPic.png" alt="Picture of Grace Gospel Chapel" width="300" height="300"  />
+						</div>
+						<div class="col-md-4">
+							
+							<div class="row">
+								<div class="col-md-12">
+									<h1><span id="gracetheme">Serving In The Harlem Area...</span><i><span id="gracename">Grace</span></i></h1>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h1><span id="gracetheme">...of New York City...</span><i><span id="gracename">Gospel</span></i></h1>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h1><span id="gracetheme">...for 100 years!</span><i><span id="gracename">Chapel</span></i></h1>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-4">
+							<img class="pictureshadows" src="../Pictures/GGC100thLogoFilled.JPG" alt="Grace Gospel Chapel's 100th Anniversary Logo" width="300" height="300" />
+						</div>
 					</div>
 				</div>
-			</div>
+				<!--End Of Grace Name, Pictures & Theme Region-->
 			
-			<div class="container">
-				<div class="row-fluid">
-					<div class="span12">
-						<ul class="nav nav-pills navbarpadding">
-							<li class="active">
-								<a href="Welcome.html">WELCOME</a>
-							</li>
-							<li class="active">
-								<a href="WeekendEvents.html">WEEKEND EVENTS</a>
-							</li>
-							<li class="active">
-								<a href="TravelAssistance.html">TRAVEL ASSISTANCE</a>
-							</li>
-							<li class="active">
-								<a href="FondMemoriesBlog.html">FOND MEMORIES BLOG</a>
-							</li>
-							<li class="active">
-								<a href="MediaGallery.html">MEDIA GALLERY</a>
-							</li>
-							<li class="active">
-								<a href="">TIMELINE</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
+				<br>
+				<br>
+				
+			<!-- Timeline.JS: http://timeline.knightlab.com/-->
+			<!-- Under Google email of main administrator-->
+			<!-- Beginning of Timeline -->
 			<div class="container">
 				<div class="row fluid">
 					<div class="span12">
 						<iframe src='http://embed.verite.co/timeline/?source=0AoWDwd5LLUmtdHRvV3pyQlZtZ1NFYmItTnV0aEhqV2c&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
 					</div>
 				</div>
-			
-				<div class="container">
-					<div class="row-fluid blockbarsettings">
-						<div class ="span3">
-							<h6><a class="blockbarlinks" href="Welcome.html">Home</a></h6>
-						</div>
-						<div class="span3">
-							<h6><a class="blockbarlinks" href="https://www.facebook.com/pages/GGC/155254057971451">Facebook Page</h6>
-						</div>
-						<div class="span3">
-							<h6><a class="blockbarlinks" href="FondMemoriesBlog.html">Our Blog</a></h6>
-						</div>
-						<div class="span3">
-							<h6><a class="blockbarlinks" href="">Contact Us</a></h6>
-						</div>
-						<br>
-					</div>
-				</div>
 			</div>
 		</div>
-		<script src="http://code.jquery.com/jquery.js"> </script>
-		<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/bootstrap.js"></script>
+		<!-- End of Timeline -->
+		
+		<!-- Navigation Bar-->
+		<div class="row" id="bottomnavbar">
+			<div class="col-md-3 col-md-offset-1">
+			
+			<br>
+			<br>
+			
+				<address>
+					<strong>Grace Gospel Chapel</strong><br>
+					102 West 133rd Street<br>
+					New York, NY 10030<br>
+					<abbr title="Main Office">MO:</abbr> (212) 281-0642<br>
+					<abbr title="Sunday School Office">SSO:</abbr> (212) 926-9550
+				</address>
+			</div>
+			
+			<br>
+			
+			<div class="col-md-4">
+				<h3><strong>Grace's Website</strong></h3>
+				<a href="http://www.gracegospelchapelnyc.org"><img src="../Pictures/GGCChurchPic.png" alt="Picture of Grace Gospel Chapel" width="100" height="80"/></a>
+			</div>
+		</div>
+	</div>
+<!-- End Of Navigation Bar-->
 	</body>
 </html>

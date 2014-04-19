@@ -1,8 +1,8 @@
 /*Shared Between Main Page & Travel Assistance*/
 body{background-color: #E89619;} /*Gold*/
 #bodybackcolor{background-color:white;}
-#gracename{color: #9900CC; font-family: "Segoe UI Semibold"; font-size: 60pt;}/*Light Purple*/
-#gracetheme{font-size: 16pt; color: #9900CC;} 
+#gracename{color: #9900CC; font-family: "Segoe UI Semibold"; font-size: 40pt;}/*Light Purple*/
+#gracetheme{font-size: 12pt; color: #9900CC;} 
 #bottomnavbar{background-color: #330033; color: white;} /* Dark Purple */
 #midcentering{text-align: center;}
 
